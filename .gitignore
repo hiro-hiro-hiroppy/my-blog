@@ -6,6 +6,7 @@
 /node_modules
 /.pnp
 .pnp.js
+.yarn/install-state.gz
 
 # testing
 /coverage
@@ -108,7 +109,7 @@ web_modules/
 .yarn-integrity
 
 # dotenv environment variable files
-.env
+# .env TODO Portfolio用として環境ファイルも見せる
 .env.development.local
 .env.test.local
 .env.production.local
