@@ -7,6 +7,10 @@ export const styles = css`
     flex-direction: column;
     margin-top: 50px;
 
+    .section-title {
+      margin-left: 12.5px;
+    }
+
     ul.link-section-list {
       li {
         margin-bottom: 30px;

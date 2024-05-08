@@ -111,7 +111,7 @@ export default function ProfileComponent() {
               </div>
               <div className="profile-biography-row">
                 <span className="profile-biography-year">2024年</span>
-                東京理科大学 工学部 情報学科 入学
+                東京理科大学大学院 工学研究科 情報工学専攻 入学
               </div>
             </div>
           </div>

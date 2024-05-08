@@ -11,7 +11,7 @@ export default function LinkComponent() {
       <style jsx>{styles}</style>
       <CmBlogLayout>
         <div className="link-section">
-          <h1>リンク集</h1>
+          <h2 className="section-title">リンク集</h2>
           <ul className="link-section-list">
             <li>
               <h2>Qiita</h2>
