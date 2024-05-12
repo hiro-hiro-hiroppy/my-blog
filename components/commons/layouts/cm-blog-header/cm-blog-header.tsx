@@ -29,17 +29,17 @@ export default function CmBlogHeader() {
   const items: MenuProps['items'] = [
     {
       // eslint-disable-next-line @next/next/no-html-link-for-pages
-      label: <a href="/profile">profile</a>,
+      label: <Link href="/profile">Profile</Link>,
       key: '0'
     },
     {
       // eslint-disable-next-line @next/next/no-html-link-for-pages
-      label: <a href="/portfolio">portfolio</a>,
+      label: <Link href="/portfolio">Portfolio</Link>,
       key: '1'
     },
     {
       // eslint-disable-next-line @next/next/no-html-link-for-pages
-      label: <a href="/link">Link</a>,
+      label: <Link href="/link">Link</Link>,
       key: '2'
     }
   ];

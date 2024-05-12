@@ -15,15 +15,21 @@ export default function LinkComponent() {
           <ul className="link-section-list">
             <li>
               <h2>Qiita</h2>
-              <a>{qiitaUrl}</a>
+              <a href={qiitaUrl} target="_blank">
+                {qiitaUrl}
+              </a>
             </li>
             <li>
               <h2>GitHub</h2>
-              <a>{githubUrl}</a>
+              <a href={githubUrl} target="_blank">
+                {githubUrl}
+              </a>
             </li>
             <li>
               <h2>Twitter(X)</h2>
-              <a>{xUrl}</a>
+              <a href={xUrl} target="_blank">
+                {xUrl}
+              </a>
             </li>
           </ul>
         </div>
