@@ -14,6 +14,7 @@ export default function App({ Component, pageProps }: AppProps) {
   const pageTitles: pageTitleType[] = [
     { path: '/', title: blogName },
     { path: '/profile', title: `プロフィール - ${blogName}` },
+    { path: '/portfolio', title: `ポートフォリオ - ${blogName}` },
     { path: '/link', title: `リンク集 - ${blogName}` }
   ];
 
