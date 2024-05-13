@@ -2,7 +2,9 @@
 const nextConfig = {
   reactStrictMode: true,
   // 追加
-  output: 'export'
+  output: 'export',
+  trailingSlash: true
 };
 
 module.exports = nextConfig;
+
